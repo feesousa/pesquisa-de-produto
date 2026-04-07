@@ -1,0 +1,25 @@
+{
+  "name": "pesquisa-de-produto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feesousa/pesquisa-de-produto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feesousa/pesquisa-de-produto/issues"
+  },
+  "homepage": "https://github.com/feesousa/pesquisa-de-produto#readme",
+  "dependencies": {
+    "fastify": "^5.8.4"
+  }
+}
