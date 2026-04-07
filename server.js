@@ -1,6 +1,14 @@
 import Fastify from 'fastify';
+import cors from '@fastify/cors';
 
-const servidor = Fastify();
+async function start() {
+    const servidor = Fastify();
+
+    await servidor.register(cors, {
+    origin: '*',
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+});
+};
 
 //-----------------------------------------------------------------------------
 
@@ -22,3 +30,5 @@ servidor.listen({
   port: process.env.PORT || 3000,
   host: '0.0.0.0'
 });
+
+start();

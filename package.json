@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/feesousa/pesquisa-de-produto#readme",
   "dependencies": {
+    "@fastify/cors": "^11.2.0",
     "fastify": "^5.8.4"
   }
 }
